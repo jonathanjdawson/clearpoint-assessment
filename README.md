@@ -8,5 +8,6 @@ This solution has two newly created Javascript Cypress spec files in /Backend/cy
 
 ## Running the solution 
 * Clone this repo and install Cypress to execute the automated API tests. 
-* Navigate to /Backend/cypress/e2e 
+* Start the app by running `docker compose up`
+* Navigate to /Backend/cypress/e2e
 * Execute both spec files using Cypress (happy-path-tests, unhappy-path-tests)
